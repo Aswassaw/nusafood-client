@@ -1,0 +1,8 @@
+nav {
+  background-color: var(--primary-color);
+  border-bottom: 1.8px solid var(--secondary-color);
+}
+
+.not-active {
+  color: rgba(255, 255, 255, .55);
+}

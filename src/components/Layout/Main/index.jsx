@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Main() {
   const renderMain = () => (
-    <nav>Main</nav>
+    <p>Main</p>
   );
 
   return <>{renderMain()}</>;
