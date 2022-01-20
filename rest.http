@@ -1,0 +1,4 @@
+### get jsonplaceholder user
+GET https://jsonplaceholder.typicode.com/users
+Accept: application/text
+Content-Type: application/json
