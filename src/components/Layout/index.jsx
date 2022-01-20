@@ -6,7 +6,7 @@ import Footer from "./Footer";
 
 export default function Layout() {
   const renderLayout = () => (
-    <div class="layout">
+    <div className="layout">
       <Navbar />
       <Main />
       <Footer />

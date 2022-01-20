@@ -1,0 +1,40 @@
+:root {
+  --primary-white: #fff;
+  --primary-alt-white: #eef3f8;
+  --primary-gray: #333;
+  --primary-navbar: #bdf7f7;
+  --primary-bg-search: #eef3f8;
+  --primary-orange: #f9ab00;
+  --primary-navy: #021e39;
+  --primary-green: #21843d;
+  --primary-alt-green: #2fc64c;
+  --primary-purple: #6649b8;
+  --primary-custom-green: #85fac4;
+  --primary-custom-pink: #e52e71;
+  --primary-aqua: aqua;
+  --primary-brick-red: #8b4513;
+  --primary-peach: #fde1d2;
+  --primary-bright-green: #1bd4a5;
+  --primary-bright-orange: #dd501d;
+  --primary-red: red;
+  --primary-backdrop: #282c34;
+  --primary-alt-orange: #f1c17e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+ul {
+  list-style: none !important;
+}
+
+a {
+  text-decoration: none !important;
+}
