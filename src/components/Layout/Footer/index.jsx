@@ -1,10 +1,10 @@
 import React from "react";
 import {
   FaFacebookF,
-  FaTwitter,
   FaInstagram,
   FaLinkedin,
   FaGithub,
+  FaWhatsapp,
 } from "react-icons/fa";
 import Logo from "../Navbar/Partial/Logo";
 
@@ -17,19 +17,39 @@ export default function Footer() {
         </div>
 
         <div>
-          <a href="#!" className="mx-3 text-reset">
+        <a
+            href="#!"
+            className="mx-2 btn btn-sm text-white rounded-circle shadow"
+            style={{ backgroundColor: "#44BE53" }}
+          >
+            <FaWhatsapp />
+          </a>
+          <a
+            href="#!"
+            className="mx-2 btn btn-sm text-white rounded-circle shadow"
+            style={{ backgroundColor: "#3b5998" }}
+          >
             <FaFacebookF />
           </a>
-          <a href="#!" className="mx-3 text-reset">
-            <FaTwitter />
-          </a>
-          <a href="#!" className="mx-3 text-reset">
+          <a
+            href="#!"
+            className="mx-2 btn btn-sm text-white rounded-circle shadow"
+            style={{ backgroundColor: "#ac2bac" }}
+          >
             <FaInstagram />
           </a>
-          <a href="#!" className="mx-3 text-reset">
+          <a
+            href="#!"
+            className="mx-2 btn btn-sm text-white rounded-circle shadow"
+            style={{ backgroundColor: "#0082ca" }}
+          >
             <FaLinkedin />
           </a>
-          <a href="#!" className="mx-3 text-reset">
+          <a
+            href="#!"
+            className="mx-2 btn btn-sm text-white rounded-circle shadow"
+            style={{ backgroundColor: "#333333" }}
+          >
             <FaGithub />
           </a>
         </div>
