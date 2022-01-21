@@ -11,15 +11,6 @@ export default function Menu() {
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 align-items-lg-center">
         <li className="nav-item">
           <a
-            className={`nav-link ${location.pathname === "/" && "active"}`}
-            aria-current="page"
-            href="#"
-          >
-            Home
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
             className={`nav-link ${
               location.pathname === "/browse" && "active"
             }`}
@@ -65,6 +56,7 @@ export default function Menu() {
           type="search"
           placeholder="Search"
           aria-label="Search"
+          size="40"
         />
         <button className="btn btn-primary" type="submit">
           <FaSearch />
