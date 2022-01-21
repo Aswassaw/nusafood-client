@@ -15,7 +15,7 @@ export default function Menu() {
               location.pathname === "/browse" && "active"
             }`}
             aria-current="page"
-            href="#"
+            href="#!"
           >
             Browse
           </a>
@@ -24,7 +24,7 @@ export default function Menu() {
           <a
             className={`nav-link ${location.pathname === "/login" && "active"}`}
             aria-current="page"
-            href="#"
+            href="#!"
           >
             Login
           </a>
@@ -35,7 +35,7 @@ export default function Menu() {
               location.pathname === "/register" && "active"
             }`}
             aria-current="page"
-            href="#"
+            href="#!"
           >
             Register
           </a>
@@ -44,7 +44,7 @@ export default function Menu() {
           <a
             className={`nav-link ${location.pathname === "/cart" && "active"}`}
             aria-current="page"
-            href="#"
+            href="#!"
           >
             <Cart />
           </a>

@@ -9,10 +9,10 @@ export default function Navbar() {
   const renderNavbar = () => (
     <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container">
-        <a className="navbar-brand text-itim" href="#">
+        <a className="navbar-brand text-itim" href="/">
           <Logo /> NusaFood
         </a>
-        <a className="nav-link ms-auto me-1 d-lg-none" href="#">
+        <a className="nav-link ms-auto me-1 d-lg-none" href="#!">
           <Cart isActive />
         </a>
         <ToggleMenu />
