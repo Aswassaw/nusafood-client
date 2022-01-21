@@ -1,8 +1,11 @@
+import './Main.css';
 import React from "react";
 
 export default function Main() {
   const renderMain = () => (
-    <p>Main</p>
+    <main>
+      Main
+    </main>
   );
 
   return <>{renderMain()}</>;

@@ -4,10 +4,13 @@ nav {
 }
 
 .navbar-brand {
-  font-family: 'Itim', sans-serif !important;
   font-size: 1.5rem;
 }
 
 .not-active {
   color: rgba(255, 255, 255, .55);
+}
+
+.text-itim {
+  font-family: 'Itim', sans-serif !important;
 }
