@@ -1,17 +1,18 @@
 import "./style/Navbar.css";
 import React from "react";
-import Cart from "./Cart";
+import { Link } from "react-router-dom";
 import ToggleMenu from "./ToggleMenu";
-import Menu from "./Menu";
 import Logo from "../../atoms/Logo";
+import Menu from "./Menu";
+import Cart from "./Cart";
 
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container">
-        <a className="navbar-brand text-itim" href="/">
+        <Link className="navbar-brand text-itim" to="/">
           <Logo /> NusaFood
-        </a>
+        </Link>
         <a className="nav-link ms-auto me-1 d-lg-none" href="#!">
           <Cart isActive />
         </a>
