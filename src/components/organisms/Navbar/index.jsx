@@ -1,12 +1,12 @@
-import "./Navbar.css";
+import "./style/Navbar.css";
 import React from "react";
-import Cart from "./Partial/Cart";
-import ToggleMenu from "./Partial/ToggleMenu";
-import Menu from "./Partial/Menu";
-import Logo from "./Partial/Logo";
+import Cart from "./Cart";
+import ToggleMenu from "./ToggleMenu";
+import Menu from "./Menu";
+import Logo from "../../atoms/Logo";
 
 export default function Navbar() {
-  const renderNavbar = () => (
+  return (
     <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container">
         <a className="navbar-brand text-itim" href="/">
@@ -20,6 +20,4 @@ export default function Navbar() {
       </div>
     </nav>
   );
-
-  return <>{renderNavbar()}</>;
 }
