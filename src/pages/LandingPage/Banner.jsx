@@ -14,7 +14,7 @@ export default function Banner() {
             <span>Ayo Temukan Rasa Favoritmu Bersama</span>
             <br />
             <Logo size="65" />{" "}
-            <span className="bottom-line text-itim display-4">NusaFood</span>!
+            <span className="bottom-line text-itim display-4">NusaFood</span>
           </h1>
           <p className="d-none d-md-block  fs-5 mb-5">
             Kami Menyediakan Kenikmatan Rasa Yang Sempurna. Semuanya Disusun
@@ -23,10 +23,10 @@ export default function Banner() {
           </p>
           <div className="row">
             <div className="col">
-              <button className="btn btn-lg btn-danger mx-2 mx-2">
+              <button className="btn btn-lg btn-primary mx-2 mx-2">
                 Browse
               </button>
-              <button className="btn btn-lg btn-outline-info mx-2 mx-2">
+              <button className="btn btn-lg btn-outline-primary mx-2 mx-2">
                 Login
               </button>
             </div>
