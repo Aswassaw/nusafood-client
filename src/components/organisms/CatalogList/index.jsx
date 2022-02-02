@@ -11,19 +11,19 @@ export default function CatalogList() {
           <div className="col-6 col-sm-4 col-md-3 col-lg-2">
             <div class="list-group my-2">
               <a
-                href="#"
+                href="#!"
                 class="list-group-item list-group-item-action active"
                 aria-current="true"
               >
                 Semua
               </a>
-              <a href="#" class="list-group-item list-group-item-action">
+              <a href="#!" class="list-group-item list-group-item-action">
                 Makanan
               </a>
-              <a href="#" class="list-group-item list-group-item-action">
+              <a href="#!" class="list-group-item list-group-item-action">
                 Minuman
               </a>
-              <a href="#" class="list-group-item list-group-item-action">
+              <a href="#!" class="list-group-item list-group-item-action">
                 Camilan
               </a>
             </div>
