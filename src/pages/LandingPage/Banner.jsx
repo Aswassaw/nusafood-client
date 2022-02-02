@@ -23,10 +23,10 @@ export default function Banner() {
           </p>
           <div className="row">
             <div className="col">
-              <button className="btn btn-lg btn-primary mx-2 mx-2">
+              <button className="btn btn-lg btn-primary mx-2 my-2">
                 Cari Makanan
               </button>
-              <button className="btn btn-lg btn-outline-info mx-2 mx-2">
+              <button className="btn btn-lg btn-outline-info mx-2 my-2">
                 Buat Akun Baru
               </button>
             </div>
