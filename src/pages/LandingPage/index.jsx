@@ -1,8 +1,8 @@
 import "./style/LandingPage.css";
 import React, { useEffect } from "react";
-import Banner from "./Banner.jsx";
-import BestProduct from "./BestProduct";
-// import Map from "./Map";
+import Banner from "../../components/organisms/Banner";
+import BestProduct from "../../components/organisms/BestProduct";
+// import Map from "../../components/organisms/Map";
 
 export default function LandingPage() {
   useEffect(() => {

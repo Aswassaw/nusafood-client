@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../components/atoms/Logo";
+import Logo from "../../atoms/Logo";
 
 export default function Banner() {
   return (
