@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import CatalogList from "../../components/organisms/CatalogList";
 
 export default function Catalog() {
   useEffect(() => {
@@ -7,7 +8,7 @@ export default function Catalog() {
 
   return (
     <main>
-      <h1>Catalog</h1>
+      <CatalogList />
     </main>
   );
 }

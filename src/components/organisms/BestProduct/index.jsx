@@ -4,7 +4,7 @@ import blue from "./blue.png";
 
 export default function BestProduct() {
   return (
-    <section id="projects" className="mb-4 semi semi-light">
+    <section id="projects" className="mb-4">
       <div className="container-lg py-5">
         <h2 className="fw-bold text-center mb-3 mt-2">Produk Unggulan</h2>
         <div className="row">
