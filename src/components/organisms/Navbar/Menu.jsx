@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import { FaSearch } from "react-icons/fa";
 import Cart from "./Cart";
 
@@ -10,15 +10,15 @@ export default function Menu() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 align-items-lg-center">
         <li className="nav-item">
-          <a
+          <Link
             className={`nav-link ${
-              location.pathname === "/browse" && "active"
+              location.pathname === "/catalog" && "active"
             }`}
             aria-current="page"
-            href="#!"
+            to="/catalog"
           >
-            Browse
-          </a>
+            Catalog
+          </Link>
         </li>
         <li className="nav-item">
           <a

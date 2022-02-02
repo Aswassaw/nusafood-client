@@ -12,6 +12,7 @@ export default function Logo({size = 40}) {
       xmlSpace="preserve"
       width={size}
       height={size}
+      aria-hidden="true"
     >
       <title>NusaFood Brand Logo</title>
       <path

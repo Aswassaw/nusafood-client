@@ -48,7 +48,7 @@ export default function Info() {
             </p>
             <p>
               <a href="#!" className="text-reset">
-                Browse
+                Catalog
               </a>
             </p>
             <p>
