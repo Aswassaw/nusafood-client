@@ -1,29 +1,49 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { FaShoppingCart } from "react-icons/fa";
+import { getDishList } from "../../../api/dish";
 import blue from "./blue.png";
 
 export default function CatalogList() {
+  const [dishes, setDishes] = useState([]);
+
+  const init = async () => {
+    try {
+      const result = await getDishList();
+      console.log(result.data);
+
+      setDishes(result.data);
+    } catch (error) {
+      if (error.response) {
+        console.error(error.response.data.error);
+      }
+    }
+  };
+
+  useEffect(() => {
+    init();
+  }, []);
+
   return (
     <section className="mb-4">
       <div className="container-lg py-5">
         <h1 className="text-center">Catalog List</h1>
         <div className="row">
           <div className="col-6 col-sm-4 col-md-3 col-lg-2">
-            <div class="list-group my-2">
+            <div className="list-group my-2">
               <a
                 href="#!"
-                class="list-group-item list-group-item-action active"
+                className="list-group-item list-group-item-action active"
                 aria-current="true"
               >
                 Semua
               </a>
-              <a href="#!" class="list-group-item list-group-item-action">
+              <a href="#!" className="list-group-item list-group-item-action">
                 Makanan
               </a>
-              <a href="#!" class="list-group-item list-group-item-action">
+              <a href="#!" className="list-group-item list-group-item-action">
                 Minuman
               </a>
-              <a href="#!" class="list-group-item list-group-item-action">
+              <a href="#!" className="list-group-item list-group-item-action">
                 Camilan
               </a>
             </div>
